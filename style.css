@@ -1,7 +1,15 @@
 body {
-  color: #870404;
+  background-color: #870404;
 }
 
 header {
-  color:yellow;
+ background-color:yellow;
+}
+
+content {
+  background-color: #e21dec;
+}
+
+main {
+  background-color: #0ddf48;
 }

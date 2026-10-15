@@ -1,15 +1,23 @@
 body {
-  background-color: #870404;
+  background-color: #f83408;
 }
 
 header {
  background-color:yellow;
 }
 
-content {
+div {
   background-color: #e21dec;
 }
 
 main {
   background-color: #0ddf48;
+}
+
+footer {
+  background-color: #2504fe;
+}
+
+footer {
+  color: #ffffff;
 }

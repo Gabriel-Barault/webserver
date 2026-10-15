@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Station Orbitale</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stars"></canvas>
+
+  <header>
+    <h1>🚀 Station Orbitale</h1>
+    <p class="subtitle">Un petit site de test, servi depuis la Terre.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Heure locale</h2>
+      <p id="clock" class="big">--:--:--</p>
+      <p id="date" class="muted"></p>
+    </section>
+
+    <section class="card">
+      <h2>Compteur de lancements</h2>
+      <p id="counter" class="big">0</p>
+      <div class="row">
+        <button id="launch">Lancer 🚀</button>
+        <button id="reset" class="ghost">Reset</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Message du jour</h2>
+      <p id="quote">…</p>
+      <button id="newQuote" class="ghost">Un autre</button>
+    </section>
+
+    <section class="card">
+      <h2>Infos serveur</h2>
+      <ul class="info">
+        <li><span>Hôte</span><code id="host"></code></li>
+        <li><span>Protocole</span><code id="proto"></code></li>
+        <li><span>Navigateur</span><code id="ua"></code></li>
+        <li><span>Écran</span><code id="screen"></code></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Fait pour tester un serveur web · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
